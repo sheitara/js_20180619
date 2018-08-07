@@ -4,7 +4,7 @@
   "description": "Учебный проект ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "static-server ./ --port 8001"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/burlakilia/js_20180619/issues"
   },
-  "homepage": "https://github.com/burlakilia/js_20180619#readme"
+  "homepage": "https://github.com/burlakilia/js_20180619#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
 }
