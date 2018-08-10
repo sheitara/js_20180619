@@ -1,3 +1,17 @@
 .button {
-  color: green;
+  display: flex;
+  color: #97002E;
+  white-space: nowrap;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #FFE9C1;
+  border: 1px solid #84002E;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: white; /* Green */
+  color: #97002E;
 }
